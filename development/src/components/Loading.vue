@@ -30,6 +30,7 @@ export default defineComponent({
   height: 100%;
   color: $color-gray;
   background-color: $color-white;
+  border-radius: $border-radius;
   transition: $transition-fast;
 
   i {
