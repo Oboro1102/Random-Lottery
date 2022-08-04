@@ -9,7 +9,7 @@
             generator</a>。</div>
       </transition>
     </div>
-    <div class="footer__copyright">&copy; 2021<span v-if="thisYear != 2021"
+    <div class="footer__copyright">&copy; 2021<span v-if="thisYear !== 2021"
         v-text="`&nbsp;-&nbsp;${thisYear}`" />&nbsp;Design & Coding by ツキノリュウ.</div>
   </footer>
 </template>
